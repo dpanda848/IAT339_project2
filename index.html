@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>P01 - Style Guide Template</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font.css">
+    
+    <link rel="stylesheet" href="css/normalize.css">
+
+    
+
+  </head>
+
+  <body>
+
+    <header>
+      <h1>P01 - Style Guide Template</h1>
+    </header>
+      <p>A template you can use to start building out your own style guides with.</p>
+
+<div class="navbar">
+      <nav>    
+        <ul>
+       <li> <a href="#interactive_elements">Interactive Elements</a> </li>
+       <li> <a href="#text_elements">Text Elements</a> </li>
+       <li> <a href="#combined_elements">Combined Elements</a> </li>
+       <li>  <a href="#product_listing">Product Listing Template</a> </li>
+       <li> <a href="#checkoutCart">Checkout Template</a> </li>
+       <li> <a href="#citations">Citations</a> </li>
+      </ul>    
+      </nav>
+
+    </div>
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+
+      <section class="element">
+
+         <!-- to create an in-text link // -->
+         <p> This is a sentence. Here is a <a class="intextLink" href="https://www.apple.com"> in-text link </a> </p>
+      </section>
+
+
+      <!-- Default Button styling section -->
+      <section class="element">
+
+        <h3>Navigation Link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.button-nav</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <p><a class="submit" href="#">Default Button</a></p>
+
+
+
+      </section>
+
+
+      <section class="element">
+        <h3>Submit/Reset Buttons</h3>
+<!-- create submitt and reset button source from lab 1 and 2 material/-->
+        <button type="button" class="submit">Submit</button>
+        <button type="button" class="reset">Reset</button>
+
+      </section>
+
+      <!-- create radio button source https://learn.shayhowe.com/html-css/building-forms/-->
+      <section class="element">
+        <h3>Radio Buttons</h3>
+        <input type="radio" name="payment type" value="Credit Card" checked> Credit Card
+    
+
+      </section>
+
+    
+
+
+      <section class="element">
+        <h3>Text Input Field with Label</h3>
+
+        <!-- to create an input field with label
+  source from https://css-tricks.com/html-inputs-and-labels-a-love-story/ // -->
+    
+      
+  <div class="input-container">
+    <label for="username">Name</label>
+    <input type="text" id="username" name="name">
+  </div>
+
+  
+      </section>
+
+ <!-- radio button with label // -->
+      <section class="element">
+        <h3>Radio Button with Label</h3>
+
+<div class="radioGroup">
+
+  <label>
+    <input type="radio" name="paymenttype" value="VISA">
+    <span class="label-text">VISA</span>
+  </label>
+  <label>
+    <input type="radio" name="paymenttype" value="Master Card">
+    <span class="label-text">Master Card</span>
+  </label>
+  <label>
+    <input type="radio" name="paymenttype" value="Paypal">
+    <span class="label-text">Paypal</span>
+  </label>
+
+        
+
+      </div>
+
+
+      </section>
+
+
+      <section class="element">
+        <div class="hover01">
+          <figure>
+            <h3>Image as a Link</h3>
+            <a href="https://anxymag.com/"><img src="img/anxys.png" alt="Anxys" width="300"></a>
+          </figure>
+        </div>
+      
+<!-- to create an image with a link. Source from https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_image // -->
+        
+      
+      </section>
+
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section class="element">
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+    </section>
+
+    
+        <h3>Headings</h3>
+      
+        <!-- adding 4 level headings// -->
+       
+        <section id="heading_elements">
+        <h1>This is heading 1</h1>
+        <h2 class = "specialH2">This is heading 2</h2>
+        <h3>This is heading 3</h3>
+        <h4>This is heading 4</h4>
+      </section>
+
+    
+  </section>
+
+
+      <section class="element">
+        <h3>Paragraphs</h3>
+    
+      <p> This is Paragraphs. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+
+      </p>
+    </section>
+    <!-- create numbered list// -->
+      <section class="element">
+        <h3>Numbered Lists</h3>
+        <ol>
+          <li>Design Magazine</li>
+          <li>Interior Magazine</li>
+          <li> Art Magazine</li>
+        </ol>
+      </section>
+
+    
+    
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+
+      </section>
+<!-- source from https://codepen.io/wajahat/pen/ORXvop-->
+
+      <div class="navbar">
+        <div class="logo">
+          <img src="img/logo.jpg" alt="Logo" width="100">
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Checkout</a></li>
+            <li><a href="#">Login</a></li>
+          </ul>
+        </nav>
+      </div>
+
+
+<!-- Product list -->
+      <section class="element" id="product_listing"> 
+        <h3 id="product_list">Product List</h3>
+<!-- Create a product list. Source from https://www.w3schools.com/howto/howto_css_product_card.asp // -->
+
+<div class="productCardContainer">
+        <div class="productCard hover01" >
+          <figure>
+            <img src="img/balcony.png" alt="balcony" style="width:100%">
+          </figure>
+          <h4>Balcony Issue 2</h4>
+          <p class="price">$34</p>
+          <p class="productText" >Balcony is a biannual collection of ‘everyday’ conversations with artists. This issue dances within the liminal spaces that exist between people.
+          </p>
+          
+          <button type="button" class="submit">Add to Cart</button>
+          
+        </div>
+
+        <div class="productCard hover01">
+          <figure>
+            <img src="img/apartamento.png" alt="Round Chair - Woven" style="width:100%">
+          </figure>
+          <h4>Apartamento Issue 27</h4>
+          <p class="price">$23 </p>
+          <p class="productText">Apartamento is widely recognised as today’s most influential, inspiring, and honest interiors magazine.</p>
+         
+          <button type="button" class="submit">Add to Cart</button>
+          
+        </div>
+
+      </div>
+  
+      </section>
+
+      <section class="element">
+        <!--source from https://www.w3schools.com/howto/howto_css_contact_form.asp -->
+        <h3>Payment Form</h3>
+
+        <div class="PaymentForm">
+          <form action="action_page.php">
+        
+            <label for="cname">Cardholder Name</label>
+            <input type="text" id="cname" name="cardholdername" placeholder="Cardholder name">
+        
+            <label for="cnum">Card Number</label>
+            <input type="text" id="cnum" name="cardnumber" placeholder="Card number">
+        
+    
+        
+            <div class="expiry-cvv-container">
+
+              <div class="expiry-container">
+
+                <label for="edate">Expiry date</label>
+
+                <input type="text" id="edate" name="expirydate" placeholder="MM/YY">
+              </div>
+
+              <div class="cvv-container">
+
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="CVV">
+              </div>
+              
+            </div>
+            
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+        </div>
+
+
+
+      </section>
+
+      <section class="element" id="checkoutCart">
+
+        <h3>Checkout Cart</h3>
+ <!-- // source from https://uxplanet.org/how-to-create-a-shopping-cart-ui-using-html-css-e5db3cd55aa0 -->
+
+<div class="wholecart">
+        <div class="CartContainer">
+   	   <div class="Header">
+   	   	<h3 class="Heading">Shopping Cart</h3>
+   	   	<p class="Action">Remove all</p>
+   	   </div>
+
+   	   <div class="Cart-Items">
+   	   	  <div class="image-box hover01">
+            <figure>
+   	   	  	  <img src="img/balcony.png" alt="Balcony Image" style="height: 120px;">
+            </figure>
+   	   	  </div>
+   	   	  <div class="about">
+   	   	  	<h4 class="title">Balcony</h4>
+   	   	  	
+   	   	  </div>
+   	   	  <div class="counter">
+   	   	  	<div class="btn">+</div>
+   	   	  	<div class="count">1</div>
+   	   	  	<div class="btn">-</div>
+   	   	  </div>
+   	   	  <div class="prices">
+   	   	  	<div class="amount"><p>$34</p></div>
+   	   	  	<div class="save"><u>Save for later</u></div>
+   	   	  	<div class="remove"><u>Remove</u></div>
+   	   	  </div>
+   	   </div>
+
+   	   <div class="Cart-Items pad">
+   	   	  <div class="image-box hover01">
+            <figure>
+              <img src="img/apartamento.png" alt="Apartamento Image" style="height: 120px;">
+            </figure>    
+   	   	  </div>
+   	   	  <div class="about">
+   	   	  	<h4 class="title">Apartamento</h4>
+   	   	  	
+   	   	  
+   	   	  </div>
+   	   	  <div class="counter">
+   	   	  	<div class="btn">+</div>
+   	   	  	<div class="count">1</div>
+   	   	  	<div class="btn">-</div>
+   	   	  </div>
+   	   	  <div class="prices">
+   	   	  	<div class="amount"><p>$23</p></div>
+   	   	  	<div class="save"><u>Save for later</u></div>
+   	   	  	<div class="remove"><u>Remove</u></div>
+   	   	  </div>
+   	   </div>
+   
+   	 <div class="checkout">
+   	 <div class="total">
+   	 	<div>
+   	 		<div class="Subtotal">Sub-Total</div>
+   	 		<div class="items"><p>2 items</p></div>
+   	 	</div>
+   	 	<div class="total-amount"><h2>$57</h2></div>
+   	 </div>
+   	 <button class="submit">Checkout</button></div>
+   </div>
+
+  </div>
+
+      </section>
+
+    </section>
+  
+
+    
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
+    <section class="element">
+
+    <section class="branding">
+        
+      <h2>Branding</h2>
+<!-- // branding ideas -->
+      <h3>Basic Branding Ideas</h3>
+      <h4> What does the company do, or offer?</h4>
+      <p>M is a online magazine e-commerce store providing coffee table style magazine to its customer </p>
+      <h4> Who is the company to potential customers</h4>
+      <p>Creative professionals like designers and artists who cares about life quality and having a special piece of chair in their living space, as well as collectors</p>
+      <h4> Why might this company entice someone to purchase a product or service?</h4>
+      <p>The company provides a wide selection of coffee table magazines. For those who is looking for inspiration and beautiful, the company serves as a comprehensive destination.</p>
+<!-- // branding components -->
+<section class="element">
+      <h3>Brand Components</h3>
+      <h1 class="brandH1"> Heading font using Philosopher bold</h1>
+      <p><a class="intextLink" href="https://fonts.google.com/specimen/Philosopher">The font is from google font</a></p>
+
+      <p class="biggerP"> Body text is using Arial normal</p>
+
+      <section class="element">
+      <!-- source from https://codepen.io/zchry/pen/naamaq-->
+      <h4>Colors</h4>
+      <ul id="colors">
+        <li class="colorCircle color-1">
+            <div class="colorHex">#000000 <p>for text</p></div>
+        </li>
+        <li class="colorCircle color-2">
+            <div class="colorHex">#FFFFFF <p>for background</p></div>
+        </li>
+        <li class="colorCircle color-3">
+            <div class="colorHex">#8C5EF6 <p>for accent color</p> </div>
+        </li>
+         <li class="colorCircle color-4">
+            <div class="colorHex">#7F7F7F<p>for accent color</p></div>
+        </li>
+      
+      </ul> 
+      </section>
+
+      <section class="element">
+      <h4>Potential image</h4>
+      <div class="imageContainer hover01">
+          <img src="img/brand.png" alt="brand" style="width:100%">
+          <img src="img/apartamento.png" alt="apartamento" style="width:100%">
+          <img src="img/anxys.png" alt="apartamento" style="width:100%">
+          <img src="img/balcony.png" alt="apartamento" style="width:100%">
+        
+
+      </div>
+    </section>
+  </section>
+
+    </section>
+  </section>
+
+
+
+    <section id="citations">
+      <h2>Citations</h2>
+
+      <ul>
+        <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a></li>
+        <li>All magazine <strong>Image</strong>. Retrieved from <a href="https://coffeetablemags.de/collections/magazines">URL</a>.</li>
+        <li>Code sources includes in the code comments.</li>
+      </ul>
+
+    </section>
+
+
+
+  </body>
+</html>

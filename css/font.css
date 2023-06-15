@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Philosopher";
+    font-weight: bold;
+    font-style: normal;
+    src: url(../font/Philosopher-Bold.ttf);
+   /** src: url(../fonts/Quan.woff) format('woff'); **/
+}
+
+@font-face {
+    font-family: "Philosopher";
+    font-weight: normal;
+    font-style: normal;
+    src: url(../font/Philosopher-Regular.ttf);
+   /** src: url(../fonts/Quan.woff) format('woff'); **/
+}
