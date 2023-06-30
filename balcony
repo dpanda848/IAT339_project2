@@ -1,5 +1,6 @@
+<!DOCTYPE html>
 <html>
-    head>
+    <head>
         <meta charset="utf-8">
         <title>P01 - Style Guide Template</title>
         <link href="css/main.css" rel="stylesheet">
@@ -7,14 +8,14 @@
         <link rel="stylesheet" href="css/normalize.css">
       </head>
 
-      <div class="navbar">
+    <div class="navbar">
         <div class="logo">
-          <img src="img/logo.jpg" alt="Logo" width="100">
+            <a href="homepage.html"><img src="img/logo.jpg" alt="Logo" width="100"></a>
         </div>
         <nav>
           <ul>
             <li><a href="about.html">About</a></li>
-            <li><a href="shopping.html">Shop</a></li>
+            <li><a href="#">Shop</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="checkout.html">Checkout</a></li>
             <li><a href="login.html">Login</a></li>
