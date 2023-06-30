@@ -710,3 +710,26 @@ li.colorCircle {
     margin: 0 3px 3px 0;
   }
   
+  .line {
+    width: 40rem;
+  }
+  .box1 {
+    display: grid;
+    grid-template-columns: 30rem 200px;
+    grid-template-rows: 100px 100px;
+    gap: 2.5rem;
+  }
+  .image-wrapper {
+    display: grid;
+    grid-row:    1;
+    grid-column: 3 ;
+    grid-auto-flow: 0;
+    gap: 20px;
+  }
+  .thumbnail {
+    display: grid;
+    grid: row 1px;;
+    grid-column: 1 / 4 ;
+    
+    
+  }
