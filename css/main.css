@@ -571,27 +571,7 @@ li.colorCircle {
   }
   
 
-    /** responsive **/
-  @media screen and (max-width: 600px) {
-    .productCardContainer {
-      flex-direction: column;
-    }
-    
-    .productCard {
-      margin-bottom: 32px;
-    }
-  }
-
-  .hover01 figure img {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-  }
-  .hover01 figure:hover img {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.1);
-  }
+  
 
 
    /** Contact page style **/
@@ -635,117 +615,129 @@ li.colorCircle {
     margin-bottom: 32px;
   }
 
-   /** Footer **/
+   /** footer **/
 
-.footerContainter{
-  border-top: 1px solid #7F7F7F;
-  margin-bottom:64px;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
-}
-
-
-  
-
-   /** Previous footer 
-
-  .footerTest{
-    width: 100%;
-    margin: 30% auto;
-    position: absolute;
-    left: 0;
-    z-index: -1;
+  .footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+   
+    background-color: #fff;
+    border-top: 1px solid #7F7F7F;
+    justify-content: space-between;
   }
   
-  #motto{
-    background: #B6B6AB;
-    text-align: center;
-    width: 100%;
-    padding: 10px;
-    color: #fff;
-    font: 16pt Georgia;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
-  }
-  
-  #footerTest{
-    background: #22697F;
-    padding: 15px 0 15px 0;
-  }
-  
-  .footerWrap{
-    margin: auto;
-    width: 600px; 
-    padding: 5px 0 5px 25px;
-  }
-  
-  .toe{
-    overflow: hidden;
-    display: inline-block;
-    width: 180px;
-    margin: 0 15px 15px 0;
-    font-size: 10pt;
-    line-height: 1.6em;
-    vertical-align: top;
-  }
-  
-  .toe a{
-    display: block;
-    text-decoration: none;
-    color: #fff;
-  }
-  
-  .toe a:hover{
-    text-decoration: underline;
-  }
-  
-  .toe h3{
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 12pt;
-    display: inline-block;
-    letter-spacing: 1px;
-  }
-  
-  #legal{
-    width: 100%;
-    text-align: center;
-    color: #EAEAEA;
-    background: #22697F;
-    font-size: 8pt;
-    line-height: 1.6em;
-    padding: 10px 10px 30px 10px;
-  }
-  
-  #social a{
-    display: inline-block;
-    width: 29px;
-    height: 29px;
-    margin: 0 3px 3px 0;
-  }
-  
-  .line {
-    width: 40rem;
-  }
-  .box1 {
-    display: grid;
-    grid-template-columns: 30rem 200px;
-    grid-template-rows: 100px 100px;
-    gap: 2.5rem;
-  }
-  .image-wrapper {
-    display: grid;
-    grid-row:    1;
-    grid-column: 3 ;
-    grid-auto-flow: 0;
-    gap: 20px;
-  }
-  .thumbnail {
-    display: grid;
-    grid: row 1px;;
-    grid-column: 1 / 4 ;
-    
-    
+  /** 
+  .footer > * {
+    flex:  1 100%;
   }
   **/
+
+  .footer__addr {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+  }
+  
+  .subBox{
+    display: flex;
+    gap:16px;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  .subBox .submit{
+    height: 42px;
+  }
+
+  .subBox input[type=text]{
+    width: 280px;
+  }
+
+
+.legal p{
+  font-size: 14px;
+  color: #7F7F7F;
+}
+  
+
+  
+  .nav__title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  
+
+  
+  .footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer li {
+    line-height: 2em;
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+  
+  .footer__nav {
+    display: flex;
+    gap: 32px;
+  }
+  
+  .footer__nav > * {
+
+    margin-right: 1.25em;
+  }
+  
+  .nav__ul a {
+    color: black;
+  }
+
+
+  .ft-social-list {
+    display: flex;
+    gap:40px;
+    margin: 0;
+   
+  }
+  .ft-social-list li {
+    margin-right: 0.5rem;
+    font-size: 1.75rem;
+  
+  }
+
+  .ft-social-list a{
+    color: #7F7F7F;
+
+  }
+  
+
+  
+ 
+  
+  
+  
+  
+    /** responsive **/
+    @media screen and (max-width: 600px) {
+      .productCardContainer {
+        flex-direction: column;
+      }
+      
+      .productCard {
+        margin-bottom: 32px;
+      }
+    }
+  
+    .hover01 figure img {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+    }
+    .hover01 figure:hover img {
+      -webkit-transform: scale(1.3);
+      transform: scale(1.1);
+    }
