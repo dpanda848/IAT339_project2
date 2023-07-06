@@ -156,7 +156,7 @@ nav a:focus{
   Source: from lab tutorial May 25
 **/
 
-img:hover, img:focus{
+img:hover:not(.non-hoverable), img:focus:not(.non-hoverable){
 transform: scale(1.1);
 
 }
@@ -744,4 +744,9 @@ li.colorCircle {
     flex: 1;
     display: flex;
     flex-direction: column;
+    padding: 20vw;
+  }
+
+  .newmargin{
+    margin-right: 5rem;
   }
