@@ -710,6 +710,8 @@ li.colorCircle {
     margin: 0 3px 3px 0;
   }
   
+
+  /**style for magazine sapareta page with more info**/
   .line {
     width: 40rem;
   }
@@ -730,6 +732,16 @@ li.colorCircle {
     display: grid;
     grid: row 1px;;
     grid-column: 1 / 4 ;
-    
-    
+  }
+
+  /**home pahe style**/
+
+  .container{
+    display:flex;
+  }
+
+  .box1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
   }
