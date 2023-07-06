@@ -635,6 +635,21 @@ li.colorCircle {
     margin-bottom: 32px;
   }
 
+   /** Footer **/
+
+.footerContainter{
+  border-top: 1px solid #7F7F7F;
+  margin-bottom:64px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+
+  
+
+   /** Previous footer 
+
   .footerTest{
     width: 100%;
     margin: 30% auto;
@@ -733,3 +748,4 @@ li.colorCircle {
     
     
   }
+  **/
