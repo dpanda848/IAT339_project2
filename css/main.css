@@ -292,6 +292,17 @@ input[type="text"]:hover, input[type="text"]:focus{
   margin-top:auto;
 }
 
+.centered-button {
+  text-align: center;
+}
+
+.container-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh; /* Optional, to center vertically as well */
+}
+
 /**Payment form style**/
 
 .expiry-cvv-container {
