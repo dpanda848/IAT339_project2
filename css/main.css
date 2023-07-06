@@ -724,6 +724,25 @@ li.colorCircle {
 
   }
   
+  /**homepage style**/
+  .container{
+    display:flex;
+    position: relative;
+    gap: 10px;
+  }
+
+  .box2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20vw;
+  }
+
+  .newmargin{
+    position: absolute;
+    right: 10%;
+    width: 30%;
+  }
 
   
  
