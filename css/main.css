@@ -725,6 +725,8 @@ li.colorCircle {
     margin: 0 3px 3px 0;
   }
   
+
+  /** code for style of magazine pages with more information**/
   .line {
     width: 40rem;
   }
@@ -745,7 +747,4 @@ li.colorCircle {
     display: grid;
     grid: row 1px;;
     grid-column: 1 / 4 ;
-    
-    
   }
-  **/
