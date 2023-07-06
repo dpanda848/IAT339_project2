@@ -24,6 +24,7 @@ body {
   border-top-width: 0.1rem;
   border-top-style: solid;
   border-top-color: #7F7F7F;
+  margin-left: 20px;
 }
 
 
@@ -260,7 +261,7 @@ input[type="text"]:hover, input[type="text"]:focus{
 .productCardContainer {
   display: flex;
   justify-content: space-between;
-
+  flex-wrap: wrap;
 }
 
 .productCard{
@@ -290,8 +291,6 @@ input[type="text"]:hover, input[type="text"]:focus{
   margin-bottom: 24px;
   margin-top:auto;
 }
-
-
 
 /**Payment form style**/
 
