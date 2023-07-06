@@ -738,6 +738,8 @@ li.colorCircle {
 
   .container{
     display:flex;
+    position: relative;
+    gap: 10px;
   }
 
   .box1{
@@ -748,5 +750,7 @@ li.colorCircle {
   }
 
   .newmargin{
-    margin-right: 5rem;
+    position: absolute;
+    right: 10%;
+    width: 30%;
   }
