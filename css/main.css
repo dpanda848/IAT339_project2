@@ -156,7 +156,7 @@ nav a:focus{
   Source: from lab tutorial May 25
 **/
 
-img:hover, img:focus{
+img:hover:not(.non-hoverable), img:focus:not(.non-hoverable){
 transform: scale(1.1);
 
 }
@@ -635,6 +635,21 @@ li.colorCircle {
     margin-bottom: 32px;
   }
 
+   /** Footer **/
+
+.footerContainter{
+  border-top: 1px solid #7F7F7F;
+  margin-bottom:64px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+
+  
+
+   /** Previous footer 
+
   .footerTest{
     width: 100%;
     margin: 30% auto;
@@ -710,3 +725,47 @@ li.colorCircle {
     margin: 0 3px 3px 0;
   }
   
+
+  /**style for magazine sapareta page with more info**/
+  .line {
+    width: 40rem;
+  }
+  .box1 {
+    display: grid;
+    grid-template-columns: 30rem 200px;
+    grid-template-rows: 100px 100px;
+    gap: 2.5rem;
+  }
+  .image-wrapper {
+    display: grid;
+    grid-row:    1;
+    grid-column: 3 ;
+    grid-auto-flow: 0;
+    gap: 20px;
+  }
+  .thumbnail {
+    display: grid;
+    grid: row 1px;;
+    grid-column: 1 / 4 ;
+  }
+
+  /**home pahe style**/
+
+  .container{
+    display:flex;
+    position: relative;
+    gap: 10px;
+  }
+
+  .box1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20vw;
+  }
+
+  .newmargin{
+    position: absolute;
+    right: 10%;
+    width: 30%;
+  }
