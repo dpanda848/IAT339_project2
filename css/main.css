@@ -72,7 +72,7 @@ p {
   margin-top: 10px;
   max-width: 80%;
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 24px;
+  line-height: 28px;
   font-size: 16px;
 }
 
@@ -582,7 +582,7 @@ li.colorCircle {
   }
   
 
-  
+
 
 
    /** Contact page style **/
@@ -745,8 +745,56 @@ li.colorCircle {
   }
 
   
- 
+   /** About Page Hero Selection**/
+  .aboutHero{
+    margin-top: 64px;
+  }
+
+  .aboutHero img{
+margin-top: 32px;
+  }
+  /** About Page Magazine Selection**/
+  .magaSec{
+ margin-top: 64px;
+ margin-bottom: 64px;
+  }
+
+  .magaList{
+    display: flex;
+   
+  }
   
+  .magaItem {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+  }
+  .magaSec h2{
+    margin-bottom: 0;
+  }
+
+  .magaItem h4{
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  
+  .magaItem li {
+    /* Add any additional styling for list items here */
+    line-height: 2;
+  }
+
+  .magaItem a{
+
+    text-decoration: none;
+    color: black;
+  }
+
+  .magaItem a:hover,   .magaItem a:focus{
+
+    color: #8C5EF6;
+  }
+
   
   
   
@@ -759,6 +807,12 @@ li.colorCircle {
       .productCard {
         margin-bottom: 32px;
       }
+
+      .magaList{
+        display: flex;
+        flex-flow: column wrap;
+      }
+
     }
   
     .hover01 figure img {
