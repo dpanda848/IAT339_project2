@@ -783,10 +783,7 @@ li.colorCircle {
       .productCard {
         margin-bottom: 32px;
       }
-      .magaList{
-        display: flex;
-        flex-flow: column wrap;
-      }
+    
 
     }
   
