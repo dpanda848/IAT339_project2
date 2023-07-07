@@ -787,6 +787,7 @@ margin-top: 32px;
     display: flex;
    
   }
+<<<<<<< HEAD
   
   .magaItem {
     list-style: none;
@@ -803,6 +804,24 @@ margin-top: 32px;
     margin-bottom: 0;
   }
   
+=======
+  
+  .magaItem {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+  }
+  .magaSec h2{
+    margin-bottom: 0;
+  }
+
+  .magaItem h4{
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  
+>>>>>>> AboutUS
   .magaItem li {
     /* Add any additional styling for list items here */
     line-height: 2;
@@ -831,7 +850,13 @@ margin-top: 32px;
       .productCard {
         margin-bottom: 32px;
       }
+<<<<<<< HEAD
        
+=======
+
+  
+
+>>>>>>> AboutUS
     }
   
     .hover01 figure img {
