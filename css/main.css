@@ -582,11 +582,6 @@ li.colorCircle {
   }
   
 
-
-
-
-   /** Contact page style **/
-
   /** Contact page style **/
 
 
@@ -769,7 +764,6 @@ li.colorCircle {
   }
 
   .box2{
-    flex: 1;
     display: flex;
     flex-direction: column;
     padding: 20vw;
