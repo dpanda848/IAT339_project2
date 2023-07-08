@@ -788,22 +788,31 @@ align-items: center;
   
   /**homepage style**/
   .container{
-    display:flex;
-    position: relative;
-    gap: 10px;
-  }
-
-  .box2{
     display: flex;
-    flex-direction: column;
-    padding: 20vw;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    gap:80px;
+    align-items: center;
+    justify-content: space-between;
   }
 
-  .newmargin{
-    position: absolute;
-    right: 10%;
-    width: 30%;
+
+
+  .box2 H1 {
+
+    font-size: 64px !important;
   }
+
+  .box2 p{
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .box2{
+  flex:1;
+  
+  }
+
+ 
 
   .image-wrapper {
     display: grid;
