@@ -844,10 +844,19 @@ align-items: center;
   }
 
   .magazinecontainer {
-    padding: 1em;
-    margin: 2em;
-    max-width: 50em;
-    background: white;
+    display: flex;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    gap:42px;
+
+  }
+
+  .productDetail{
+flex:1;
+  }
+  .productDetail h4{
+    color:black;
+
   }
 
   
