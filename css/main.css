@@ -959,6 +959,40 @@ margin-top: 32px;
         flex-flow: column wrap;
       }
 
+
+      /* Mobile styles 
+.toggle-input {
+  display: none;
+}
+
+.toggle-label {
+  display: block;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.menu {
+  display: none;
+}
+
+.toggle-input:checked ~ .menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.toggle-input:checked ~ .menu li {
+  margin: 10px 0;
+}
+
+.toggle-input:checked ~ .menu li a {
+  color: #333333;
+}
+
+.toggle-label:focus {
+  outline: none;
+}
+*/
+
   
        
     }
