@@ -225,7 +225,7 @@ input[type="text"]:hover, input[type="text"]:focus{
 .submit{
   background-color: #8C5EF6;
   color: white;
-  padding: 12px 20px;
+  padding: 12px 30px;
   border: none;
   border-radius: 4px;
   text-decoration: none;
@@ -236,7 +236,7 @@ input[type="text"]:hover, input[type="text"]:focus{
 .reset{
   background-color: white;
   color: #8C5EF6;
-  padding: 10px 20px;
+  padding: 10px 40px;
   border: 2px solid #8C5EF6;
   border-radius: 4px;
   text-decoration: none;
@@ -412,15 +412,16 @@ li.colorCircle {
 
   .wholecart{
     overflow: auto;
-    
+    margin-top: 64px;
+    margin-bottom: 64px;
     
   }
   .CartContainer{
     width: 70%;
     height: auto;
     background-color: #ffffff;
-      border-radius: 8px;
-      box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.2);
+
+    
       
   }
   
@@ -429,21 +430,24 @@ li.colorCircle {
     width: 90%;
     height: 15%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+   justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid #909090;
+   
   }
   
   .Heading{
     color: black;
     margin-top: 16px !important;
     margin-bottom: 24px !important;
+    
   }
   
   .Action{
     font-size: 14px;
     color: #7F7F7F;
     cursor: pointer;
-    border-bottom: 1px solid #7F7F7F;
+   
   }
   
   .Cart-Items{
@@ -454,15 +458,25 @@ li.colorCircle {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 24px;
+    border-bottom: 1px solid #909090;
   }
 
   .image-box{
-    width: 15%;
-    text-align: center;
+    
+    text-align: left;
   }
+
+  .image-box figure {
+    margin-left: 0;
+  }
+
   .about{
     height: 100%;
-    width: 24%;
+    width: 50%;
+  }
+
+  .about p{
+    color: #7F7F7F;
   }
 
   .title{
@@ -504,6 +518,7 @@ li.colorCircle {
     height: 100%;
     text-align: right;
   }
+
   .amount{
     padding-top: 20px;
     font-weight: bold;
@@ -512,7 +527,7 @@ li.colorCircle {
   .amount p{
     font-size: 24px !important;
     margin: 0;
-
+    
   }
 
   .save{
@@ -535,7 +550,13 @@ li.colorCircle {
     
   }
   
-  
+  .leftCol{
+    width: 50%;
+display: flex;
+align-items: center;
+
+  }
+
   .checkout{
     float: right;
     margin-right: 5%;
@@ -547,13 +568,22 @@ li.colorCircle {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 32px;
+  
   }
+
   .Subtotal{
     font-size: 22px;
     
     font-weight: 700;
     color: black;
   }
+  
+  .btnCheck{
+    display: flex;
+    justify-content: space-between;
+  }
+
   .items p {
     color: #909090;
     margin-top: 5px;
