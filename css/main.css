@@ -591,6 +591,10 @@ align-items: center;
     justify-content: space-between;
   }
 
+  .btnCheck button {
+    flex-basis: auto; /* Reset the flex-basis to auto */
+  }
+
   .items p {
     color: #909090;
     margin-top: 5px;
@@ -1010,10 +1014,16 @@ margin-top: 32px;
     width: 90%;
  
   }
-
-.leftCol{
+ .leftCol{
   flex-flow:column wrap;
 }
+
+.btnCheck{
+  flex-flow:column wrap;
+  gap:32px;
+}
+
+
 
   .btn{
    height:  28px;
@@ -1038,15 +1048,34 @@ margin-top: 32px;
   }
 
   .checkout {
-    width: 100%;
-    margin-right: 0;
+    width: 90%;
+   
   }
+
+  .btnCheck button.reset {
+    flex-basis: 30%; /* Adjust the flex-basis to a specific value */
+  }
+
+ 
 
 
   .Header,
   .Cart-Items,
   .checkout {
     align-items: flex-start;
+  }
+
+  .payment-container{
+    flex-flow: column wrap;
+    gap:0px;
+  }
+
+  .loginForm h1{
+    font-size: 32px !important;
+  }
+  .loginForm, .loginForm input[type="submit"]{
+max-width: 400px;
+    
   }
 
 
