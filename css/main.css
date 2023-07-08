@@ -150,6 +150,10 @@ nav a:focus{
 
 }
 
+nav ul li.active a {
+  color: #8C5EF6;
+}
+
 /** 
   Task 4: Add a different hover and focus state styling to the image as a link.
   Source: from lab tutorial May 25
