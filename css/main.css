@@ -587,15 +587,40 @@ li.colorCircle {
 
    /** Contact page style **/
 
+  /** Contact page style **/
+
+
+  .contact-container {
+    display: flex;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    gap:80px;
+  }
+
+  .contact-container h4{
+
+    margin-bottom: 0;
+  }
+  
+
   .ContactForm {
+    flex: 1;
+    padding: 20px;
     border-radius: 5px;
     padding: 20px;
     max-width: 600px;
     margin: 0 auto;
     background-color: #ffffff;
-    box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.2);
   }
 
+  .image-container {
+    flex: 1;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
 
   .ContactForm textarea {
     color: black;
