@@ -171,6 +171,8 @@ code {
 /** radio with label **/
 .radioGroup {
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
   
 }
 
@@ -351,11 +353,13 @@ input[type=submit]:hover {
   border-radius: 5px;
  
   padding: 20px;
-  max-width: 400px;
+  max-width: 500px;
   margin: 0 auto;
   background-color: #ffffff;
 
-  box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.2);
+  border:1px solid #7F7F7F;
+  margin-bottom: 32px;
+  margin-left:0px;
 }
 
 
@@ -838,6 +842,7 @@ align-items: center;
     gap: 2.5rem;
   }
 
+
   /** balcony magazine info design**/
   .figure {
     display: flex;
@@ -919,8 +924,23 @@ margin-top: 32px;
     color: #8C5EF6;
   }
 
-  
-  
+  /**payment page**/
+ 
+  .payment-container{
+    margin-top: 20px;
+    display: flex;
+    gap: 60px;
+  }
+
+  .payBts{
+    display: flex;
+    gap:24px;
+    margin-bottom: 64px;
+  }
+  .thanks{
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
   
     /** responsive **/
     @media screen and (max-width: 600px) {
